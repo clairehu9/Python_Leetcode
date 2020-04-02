@@ -1,3 +1,5 @@
+# 建立一个字典，key值储存list里的元素，value储存出现的次数，遍历一遍list之后，统计出现次数，再对字典里的value进行遍历，去最小值
+
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         dict = {}
